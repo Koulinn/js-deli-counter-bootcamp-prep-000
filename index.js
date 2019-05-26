@@ -25,7 +25,7 @@ function takeANumber(line, name){
    else {
       var text = "The line is currently: "
       var aux
-      for (var i = 0; i < cline.length; i++){
+      for (var i = 0; i < cline.length; i++){ // let i = 0, l = line.length; i < l; i++
         if (i === cline.length - 1){
           aux = (i + 1) + ". " + cline[i]
         }
